@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    <!-- .square {
+      background-color: blueviolet;
+      border-color: black;
+      height: 100px;
+      width: 100px;
+      padding: 40px;
+    }
+
+    .circle {
+      background-color: black;
+      border-radius: 50%;
+      color: aliceblue;
+    }
+ -->
+
+    #row {
+      width: 50%;
+      border-collapse: collapse;
+      float: right;
+
+    }
+
+    #row th {
+      background-color: #f2f2f2;
+      border: 1px solid #dddddd;
+      padding: 8px;
+      text-align: center;
+    }
+
+    #row td {
+      border: 1px solid #dddddd;
+      padding: 8px;
+      text-align: center;
+    }
+
+    #d1 {
+      width: 300px;
+      margin: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+      padding: 50px;
+      float: left;
+
+    }
+
+    #name,
+    #des {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    #start {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      background-color: green;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Time Tracker</h1>
+  <div id="d1">
+    <input type="text" placeholder="Task" id="name"><br>
+    <input type="text" placeholder="Description" id="des"><br>
+    <p id="inc"> 00:00:00</p>
+
+    <button id="start">Start</button>
+  </div>
+  <div>
+    <table border="1" id="row">
+
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Time</th>
+      </tr>
+    </table>
+  </div>
+  <!-- <div class="square" id="sq">
+           square
+         </div> -->
+  <script src="java.js">
+  </script>
+</body>
+
+</html>
